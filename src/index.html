@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar background hnav-rsp">
+        <ul class="nav-list text-small ">
+            <div class="logo">
+            <img src="img/logo.png" alt="VitalInfo">
+            </div>
+            <div class="menu-list vclass-rsp">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contactme">Contact</a></li>
+            </div>
+        </ul>
+        <div class="rightNav vclass-rsp">
+            <input type="text" name="saerch" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Welcome to VitalInfo</p>
+                <p class="text-small">At VitalInfo, get the right info you need in your life <br> to keep you growing at
+                    a higher pace than others.</p>
+                <div class="buttons">
+                    <button class="btn">Read Posts</button>
+                    <button class="btn">Login</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="./img/man-791049_1920.jpg" alt="man-image" class="manImg">
+            </div>
+        </div>
+
+    </section>
+    <section class="section" id="posts">
+        <div class="parasec">
+            <p class="sectionTag text-big">Elon Musk</p>
+            <p class="sectionSubTag text-small">When you think of Elon Musk, you probably think of a freakin' superhero.
+                I don't blame
+                you. He runs, like, nine ridiculously transformative, forward-thinking companies. How could anyone but a
+                superhero do that, right?
+                Wrong. Musk reminds us that he is just an ordinary person who has chosen to be extraordinary. You can do
+                the
+                same. You should do the same!</p>
+        </div>
+        <div class="thumbnail">
+            <img src="./img/elon-6083103_640.jpg" alt="no img found" class="img1sec">
+        </div>
+    </section>
+    <section class="section left ">
+        <div class="parasec midpara">
+            <p class="sectionTag text-big">Ray Allen</p>
+            <p class="sectionSubTag text-small">Ray Allen really moved me in his "Letter to My Younger Self." His father
+                was in the military because they moved a lot, and the kids made fun of him because he "talked like a
+                white boy."
+
+                At the time, he felt pretty alone, so he focused all of his energy into basketball. Still to this day,
+                he pretty much is alone, he admits. But, today, he's at peace with his life and happy.
+
+                When you're younger, life is all about fitting in, but when you're older, life is all about standing
+                out. Standing out is how you land jobs, how you get paid more and how you make it to the top. So don't
+                steer away from standing out. Embrace it.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="./img/ray-allen-sonics3jpg.jpg" alt="" class="img2sec">
+        </div>
+    </section>
+    <section class="section">
+        <div class="parasec">
+            <p class="sectionTag text-big">Tim Cook</p>
+            <p class="sectionSubTag text-small">I wasted two years of my life pursuing business school, regardless of
+                the fact that I sucked (and despised) at math. Business classes were all math all the time, and it made
+                me delay doing my passion -- writing.
+
+                One day, I remember calling my father crying. I told him I couldn't take it anymore. I needed to study
+                something I was good at -- writing. I was told him I thought I wanted to apply to journalism school.
+                I'll never forget what he said to me:
+
+                "Lauren, do what you love, and the money will follow." </p>
+        </div>
+        <div class="thumbnail">
+            <img src="./img/apple-1839363_640.jpg" alt="" class="img3sec">
+        </div>
+    </section>
+    <hr>
+    <section class="Contact text-center" id="contactme">
+        <h2>Contact Us</h2>
+        <div class="text-small vertical-align">
+            <input type="text" name="name"class="input-form" id="name" placeholder="Enter your name">
+            <input type="number" name="age"class="input-form" id="name"placeholder="Enter your age">
+            <input type="email" name="email"class="input-form" id="name"placeholder="Enter your email">
+            <input type="number" name="Phone"class="input-form" id="name"placeholder="Enter your Phone">
+            <textarea name="suggestions" class="input-form"id="suggestion" cols="90" rows="10" placeholder="Write your suggestions/Complaints"></textarea>
+            <button class="btn btn-dark ">Submit</button>
+        </div>
+    </section>
+    <footer>
+        <p class="footer text-center background">
+        copyright &copy; 2027 www.vitalInfo.com-All rights reserved
+        </p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
